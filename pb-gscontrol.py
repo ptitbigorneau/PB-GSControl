@@ -746,7 +746,7 @@ Copyright (C) 2006-2007 Gerald Kaszuba
         info.SetName('PB-GSControl')
         info.SetVersion('beta.2')
         info.SetDescription(description)
-        info.SetCopyright('(C) 2011 PtitBigorneau')
+        info.SetCopyright('(C) 2012 PtitBigorneau')
         info.SetWebSite('http://www.ptitbigorneau.fr')
                
         wx.AboutBox(info)    
@@ -1213,7 +1213,7 @@ Copyright (C) 2006-2007 Gerald Kaszuba
         info.SetName('PB-GSControl')
         info.SetVersion('beta.2')
         info.SetDescription(description)
-        info.SetCopyright('(C) 2011 PtitBigorneau')
+        info.SetCopyright('(C) 2012 PtitBigorneau')
         info.SetWebSite('http://www.ptitbigorneau.fr')
                
         wx.AboutBox(info)                

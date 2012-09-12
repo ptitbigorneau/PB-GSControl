@@ -64,7 +64,7 @@ class PyQuake3:
         except socket.error, e:
             raise Exception('Error receiving the packet: %s' % \
                     e[1])
-    def command(self, cmd, timeout=5, retries=2):
+    def command(self, cmd, timeout=2, retries=2):
         while retries:
             self.send_packet(cmd)
             try:
